@@ -1,8 +1,8 @@
 /*===========================================================
-|						LCD3320 Library						|
-|															|
-|author: Jefferson S. Pereira								|	
-|date: 25/10/2022											|
+|	        	LCD3320 Library			    |
+|							    |
+|author: Jefferson S. Pereira				    |	
+|date: 25/10/2022					    |
 |============================================================										
 */
 
@@ -17,7 +17,7 @@ const byte disptab3[11] = { 0x5f, 0x50, 0x3d, 0x79, 0x72, 0x6b, 0x6f, 0x51, 0x7f
 
 byte buffer[13] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };  //buffer
 
-				//pin LCDDDI,   pin LCDCLK,   pin LCDEN
+				//pin LCDDI,   pin LCDCLK,   pin LCDEN
 LCD3320::LCD3320(byte _ddi_pin, byte _clk_pin, byte _en_pin) {
 	this->_ddi_pin = _ddi_pin;
 	this->_clk_pin = _clk_pin;
