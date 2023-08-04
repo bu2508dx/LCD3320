@@ -6,7 +6,7 @@ The LCD3320 library is a library developed by Jefferson S. Pereira to control th
 
 ## Features
 
-- Control the LCD3320 display using the DDI, CLK, and EN pins of the module.
+- Control the LCD3320 display using the DI, CLK, and EN pins of the module.
 - Optional configuration of symbols such as HZ, F:, V, V:, °C, T:, A, I:.
 - Decimal point control.
 - Functions to clear the display, set frequency, voltage, temperature, current, and update display.
