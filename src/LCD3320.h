@@ -1,8 +1,8 @@
 /*===========================================================
-|						LCD3320 Library						|
-|															|
-|author: Jefferson S. Pereira								|	
-|date: 25/10/2022											|
+|	        	LCD3320 Library			    |
+|							    |
+|author: Jefferson S. Pereira				    |	
+|date: 25/10/2022					    |
 |============================================================										
 */
 
@@ -13,7 +13,7 @@
 
 class LCD3320
 {
-	public:  //pin LCDDDI,   pin LCDCLK,   pin LCDEN
+	public:  //pin LCDDI,   pin LCDCLK,   pin LCDEN
 	LCD3320(byte _ddi_pin, byte _clk_pin, byte _en_pin);
 	void begin(bool HZ = false, bool FtwoP = false, bool V = false, bool VtwoP = false,
 			   bool Celsius = false, bool TtwoP = false, bool A = false, bool ItwoP = false);
