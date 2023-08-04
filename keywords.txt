@@ -1,0 +1,17 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+LCD3320	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setFrequency	KEYWORD2
+setVoltage	KEYWORD2
+setCurrent	KEYWORD2
+setTemp	KEYWORD2
+begin	KEYWORD2
+clear	KEYWORD2
+update	KEYWORD2
+
